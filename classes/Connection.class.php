@@ -3,7 +3,7 @@
  abstract class Connection {
     private $servDB= 'mysql:host=localhost;dbname=cadastro';
     private $user = 'root';
-    private $pass = 'WaNpisu777!';
+    private $pass = '';
 
     protected function connect() {
         try {
